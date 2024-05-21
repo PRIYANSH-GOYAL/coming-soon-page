@@ -10,20 +10,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-section {
-  /* background: pink; */
-}
-
 section .container {
   height: 100vh;
   width: 100%;
 }
 
-.coming-soon{
+.coming-soon {
   height: 100vh;
   width: 100vw;
   font-family: "Gloock", serif;
-  /* background: url("https://images.unsplash.com/photo-1610465299993-e6675c9f9efa?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
   background: url("./assets/Images/nn-bg.mp4");
   background-position: center;
   background-repeat: no-repeat;
@@ -31,11 +26,8 @@ section .container {
   filter: brightness(50%);
 }
 
-
-
-.ok{
+.ok {
   color: white;
-  /* font-family: "Gloock", serif; */
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   position: absolute;
@@ -52,45 +44,43 @@ section .container {
   align-items: center;
 }
 
-.coming-logo img{
+.coming-logo img {
   width: 300px;
-  /* filter: drop-shadow(8px 9px 22px white); */
-  /* filter: drop-shadow(8px -6px 10px #f4a324); */
   transition: all .2s ease-in-out;
 }
-.coming-logo img:hover{
-  /* filter: drop-shadow(0px 0px 10px #f4a324); */
+
+.coming-logo img:hover {
   transform: scale(1.15);
   filter: drop-shadow(0px 0px 10px rgb(166, 217, 249));
 }
-.coming-text{
+
+.coming-text {
   padding: 50px;
 }
-.coming-text h1{
+
+.coming-text h1 {
   font-size: 150px;
   text-transform: capitalize;
 }
 
-.coming-sub p{
+.coming-sub p {
   font-size: 50px;
   text-transform: capitalize;
   font-weight: 500;
 }
-.coming-sub p:hover{
+
+.coming-sub p:hover {
   transition: all .2s ease-in-out;
   filter: drop-shadow(0px 0px 10px rgb(166, 217, 249));
 }
-.neon-text{
-  /* color: #fff; */
-  /* text-shadow:
-    0 0 7px red,
-    0 0 10px purple,
-    0 0 102px #3830e3,
-    0 0 151px #6f38c5; */
-    transition: all .2s ease-in-out;
-    -webkit-text-fill-color: transparent;      -webkit-text-stroke: 3px;
-  }
-.neon-text:hover{
+
+.neon-text {
+  transition: all .2s ease-in-out;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px;
+}
+
+.neon-text:hover {
   filter: drop-shadow(0px 0px 10px rgb(166, 217, 249));
 
 }
