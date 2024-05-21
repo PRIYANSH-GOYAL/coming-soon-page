@@ -8,7 +8,7 @@ const ComingSoon = () => {
     <section>
         <div className='container'> 
           <div className="coming-soon">
-            <video autoPlay={true} loop={true} src={nnbackground}></video>
+            <video autoPlay={true} loop={true} controls={true} src={nnbackground}></video>
           </div>
           <div className="ok">
             <div className="coming-logo">
