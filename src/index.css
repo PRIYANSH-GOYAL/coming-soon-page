@@ -9,20 +9,24 @@ body {
   background: #ececec;
   font-family: "Roboto", sans-serif;
 }
-a{
+
+a {
   text-decoration: none;
 }
-.main{
+
+.main {
   width: 100%;
   height: 100vh;
   overflow: hidden;
 }
-video{
+
+video {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
 }
-.content{
+
+.content {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -33,7 +37,8 @@ video{
   align-items: center;
   color: white;
 }
-.overlay{
+
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -42,54 +47,60 @@ video{
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.coming-logo{
+.coming-logo {}
 
-}
-
-.coming-logo img{
+.coming-logo img {
   width: 300px;
   transition: all .2s ease-in-out;
 }
-.coming-logo img:hover{
+
+.coming-logo img:hover {
   transform: scale(1.15);
   filter: drop-shadow(0px 0px 10px rgb(166, 217, 249));
 }
-.coming-text{
+
+.coming-text {
   padding: 50px;
 }
-.coming-text h1{
+
+.coming-text h1 {
   font-size: 10em;
   text-transform: capitalize;
 }
-.coming-sub{
-  
-}
-.coming-sub p{
+
+.coming-sub {}
+
+.coming-sub p {
   font-size: 50px;
   text-transform: capitalize;
   font-weight: 500;
 }
-.coming-sub p:hover{
+
+.coming-sub p:hover {
   transition: all .2s ease-in-out;
   filter: drop-shadow(0px 0px 10px rgb(166, 217, 249));
 }
-.neon-text{
-    transition: all .2s ease-in-out;
-    -webkit-text-fill-color: transparent;      
-    -webkit-text-stroke: 3px;
-  }
-.neon-text:hover{
+
+.neon-text {
+  transition: all .2s ease-in-out;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px;
+}
+
+.neon-text:hover {
   filter: drop-shadow(0px 0px 10px rgb(166, 217, 249));
 }
 
-.contact-now{
+.contact-now {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 40px 0;
 }
-.contact-whatsapp,.contact-email{
+
+.contact-whatsapp,
+.contact-email {
   display: flex;
   /* padding: 10px 0; */
   align-items: center;
@@ -99,46 +110,59 @@ video{
   font-weight: 500;
   color: white;
 }
-.contact-whatsapp:hover,.contact-email:hover{
+
+.contact-whatsapp:hover,
+.contact-email:hover {
   filter: drop-shadow(0px 0px 10px rgb(166, 217, 249));
 }
-.contact-img{
+
+.contact-img {
   width: 30px;
 }
 
 @media (max-width: 768px) {
   .coming-logo img {
-      width: 200px;
+    width: 200px;
   }
+
   .coming-text h1 {
-      font-size: 5em;
+    font-size: 5em;
   }
+
   .coming-sub p {
-      font-size: 30px;
+    font-size: 30px;
   }
-  .content{
+
+  .content {
     display: flex;
     justify-content: center;
   }
 }
+
 @media (max-width: 480px) {
   .coming-logo img {
-      width: 200px;
+    width: 200px;
   }
+
   .coming-text h1 {
-      font-size: 2.5em;
-      -webkit-text-stroke: 1px;
+    font-size: 2.5em;
+    -webkit-text-stroke: 1px;
   }
+
   .coming-sub p {
-      font-size: 20px;
+    font-size: 20px;
   }
-  .contact-whatsapp, .contact-email {
-      font-size: 16px;
+
+  .contact-whatsapp,
+  .contact-email {
+    font-size: 16px;
   }
+
   .contact-img {
-      width: 20px;
+    width: 20px;
   }
-  .content{
+
+  .content {
     display: flex;
     justify-content: center;
   }
