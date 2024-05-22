@@ -1,8 +1,8 @@
 import React from 'react'
 import cominglogo from '../assets/Images/new-in.svg'
 import videoBg from '../assets/Images/bg-video.mp4'
-import email from '../assets/Images/whatsapp-white.png'
-import whatsapp from '../assets/Images/email-white.png'
+import email from '../assets/Images/email-white.png'
+import whatsapp from '../assets/Images/whatsapp-white.png'
 
 
 const ComingSoon = () => {
@@ -28,7 +28,7 @@ const ComingSoon = () => {
                   <p>cmpundhir@ideaneuron.com</p>
                 </div>
               </a>
-              <a href="tel:859-507-3725">
+              <a href="https://wa.me/918595073725">
                 <div className="contact-email">
                   <img className='contact-img' src={whatsapp} alt="" />
                   <p>+91 8595073725</p>
